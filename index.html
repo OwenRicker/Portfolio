@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owen Ricker - Data Consultant</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --text-color: #333;
+            --background-color: #f8f9fa;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section {
+            padding: 3rem 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .experience-item {
+            margin-bottom: 2rem;
+        }
+
+        .experience-item h3 {
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Owen Ricker</h1>
+            <p>Cybersecurity | Data Science | Consulting</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>Data science, analytics, and cyber professional in the healthcare domain. Leveraging advanced Python automation and machine learning techniques to enhance risk modeling practices and drive data-informed decisions.</p>
+        </section>
+
+        <section class="section" id="experience">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <h3>Cyber Risk Quantification Senior Analyst - Cigna</h3>
+                <p>Specializing in developing and implementing automated risk modeling solutions using Python, enhancing the efficiency and accuracy of cyber risk assessments. Key achievements include:</p>
+                <ul>
+                    <li>Automated risk assessment workflows reducing analysis time by implementing machine learning models</li>
+                    <li>Developed Python scripts for risk data processing and visualization</li>
+                    <li>Created automated reporting systems for risk metrics and KPIs</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h3>Data Consultant - Fulton Analytics</h3>
+                <p>Led PowerBI and Azure environment implementation projects, focusing on data pipeline management and automated reporting solutions.</p>
+            </div>
+
+            <div class="experience-item">
+                <h3>Schooling & Internships</h3>
+                <p>UMD Student Analyst</p>
+                <li>Contracted with Hormel, MN Wild, Lion Hotel Group, etc to act as consultants using Analytics and ML to provide marketing recommendations</li>
+                <p>United Healthcare Sales Support</p>
+                <li>Verified Medicare/Medicaid plan eligibility for sales team and clients</li>
+                <p>LifeSpark Data & Analytics</p>
+                <li>Created SQL pipelines to connect disparate data for metrics reporting</li>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <h2>Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Data Science & Analytics</h3>
+                    <ul>
+                        <li>Python (Pandas, NumPy, Scikit-learn)</li>
+                        <li>SQL</li>
+                        <li>PowerBI</li>
+                        <li>Tableau</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Cloud & Infrastructure</h3>
+                    <ul>
+                        <li>Azure Data Factory</li>
+                        <li>AWS</li>
+                        <li>Snowflake</li>
+                        <li>Linux</li>
+                        <li>DataBricks</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Risk Analysis</h3>
+                    <ul>
+                        <li>Cyber Risk Quantification</li>
+                        <li>Risk Modeling</li>
+                        <li>SAFE</li>
+                        <li>Automated Risk Assessment</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>M.S. in Data Science - University of St. Thomas</li>
+                <li>AI Graduate Certificate - University of St. Thomas</li>
+                <li>BBA in Consumer Analytics & Healthcare Management - University of Minnesota, Duluth</li>
+                <li>CompTIA Security+ Certification</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="contact-info">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <p>Email: ORicker@proton.me</p>
+            <p>Location: MN</p>
+        </div>
+    </footer>
+</body>
+</html>
